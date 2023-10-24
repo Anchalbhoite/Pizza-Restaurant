@@ -109,7 +109,7 @@ function init() {
     // Create the Google Map using out element and options defined above
     var map = new google.maps.Map(mapElement, mapOptions);
     
-    var addresses = ['New York'];
+    var addresses = ['Telengana'];
 
     for (var x = 0; x < addresses.length; x++) {
         $.getJSON('https://www.google.com/maps/uv?pb=!1s0x3bcb99f82189d365%3A0xcde4dfb5f564104e!3m1!7e115!4s%2Fmaps%2Fplace%2Fold%2Bschool%2Bcafe%2Baddress%2Bcontact%2Bnumber%2F%4017.4068673%2C78.4769946%2C3a%2C75y%2C215h%2C90t%2Fdata%3D*213m4*211e1*213m2*211srSQWitGNxWCZGyv5_8BChQ*212e0*214m2*213m1*211s0x3bcb99f82189d365%3A0xcde4dfb5f564104e%3Fsa%3DX%26ved%3D2ahUKEwix4fCA746CAxWCzDgGHTO9AkgQpx96BAhIEAA!5sold%20school%20cafe%20address%20contact%20number%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e2!2srSQWitGNxWCZGyv5_8BChQ&hl=en&sa=X&sqi=2&ved=2ahUKEwix4fCA746CAxWCzDgGHTO9AkgQpx96BAh2EA0'+addresses[x]+'&sensor=false', null, function (data) {
