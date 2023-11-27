@@ -2,7 +2,6 @@
  	duration: 800,
  	easing: 'slide'
  });
-
 (function($) {
 
 	"use strict";
