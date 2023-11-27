@@ -3,8 +3,12 @@
  	easing: 'slide'
  });
 functionshowThanks(){
-	document.body.innerHTML="<h1> Thanks for  your order</h1>";
+	document.body.innerHTML='<h1> Thanks for  your order</h1>
+		<img src="${https://i.pinimg.com/originals/bc/25/de/bc25de1bfe3464f92ed45a7f3f58b200.jpg} alt"thanks"
+		style="max-width: 100%;>
+			';
 }
+
 document.getElementByIf("OrderButton").addEventListner("Click",showThanks);
 (function($) {
 
