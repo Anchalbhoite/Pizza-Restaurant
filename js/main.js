@@ -16,7 +16,9 @@
     horizontalOffset: 0,
 	  verticalOffset: 0
   });
-
+  function showThanks(){
+	  alert("thanks for order!!");
+  }
   // Scrollax
   $.Scrollax();
 
