@@ -2,7 +2,10 @@
  	duration: 800,
  	easing: 'slide'
  });
-
+functionshowThanks(){
+	document.body.innerHTML="<h1> Thanks for  your order</h1>";
+}
+document.getElementByIf("OrderButton").addEventListner("Click",showThanks);
 (function($) {
 
 	"use strict";
