@@ -16,9 +16,7 @@
     horizontalOffset: 0,
 	  verticalOffset: 0
   });
-  function showThanks(){
-	  window.location.href='thank.html';
-  }
+  
   // Scrollax
   $.Scrollax();
 
