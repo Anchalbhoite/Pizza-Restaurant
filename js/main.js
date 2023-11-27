@@ -17,7 +17,7 @@
 	  verticalOffset: 0
   });
   function showThanks(){
-	  alert("thanks for order!!");
+	  window.location.href='thank.html';
   }
   // Scrollax
   $.Scrollax();
